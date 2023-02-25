@@ -8,24 +8,21 @@ import { ShoppinglistComponent } from './shoppinglist/shoppinglist.component';
 import { RecipeeComponent } from './recipee/recipee.component';
 import { RecipeeDetailsComponent } from './recipee/recipee-details/recipee-details.component';
 import { RecipeeListComponent } from './recipee/recipee-list/recipee-list.component';
-import {  shoppingeditComponent } from './shoppinglist/shoppingedit/shoppingedit.component';
+import { ShoppingeditComponent } from './shoppinglist/shoppingedit/shoppingedit.component';
 import { RecipeeItemComponent } from './recipee/recipee-list/recipee-item/recipee-item.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ShoppinglistComponent,
-    shoppingeditComponent,
+    ShoppingeditComponent,
     RecipeeComponent,
     RecipeeDetailsComponent,
     RecipeeListComponent,
-    RecipeeItemComponent
+    RecipeeItemComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
