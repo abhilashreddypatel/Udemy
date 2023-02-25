@@ -7,7 +7,7 @@ import { Recipee } from './recipee.model';
   styleUrls: ['./recipee.component.css'],
 })
 export class RecipeeComponent implements OnInit {
-  selectedrecipee = Recipee;
+  selectedrecipee: Recipee;
 
   constructor() {}
 
