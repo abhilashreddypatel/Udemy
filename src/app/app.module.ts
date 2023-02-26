@@ -10,6 +10,7 @@ import { RecipeeDetailsComponent } from './recipee/recipee-details/recipee-detai
 import { RecipeeListComponent } from './recipee/recipee-list/recipee-list.component';
 import { ShoppingeditComponent } from './shoppinglist/shoppingedit/shoppingedit.component';
 import { RecipeeItemComponent } from './recipee/recipee-list/recipee-item/recipee-item.component';
+import { DropdownDirective } from './dropdown.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { RecipeeItemComponent } from './recipee/recipee-list/recipee-item/recipe
     RecipeeDetailsComponent,
     RecipeeListComponent,
     RecipeeItemComponent,
+    DropdownDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
